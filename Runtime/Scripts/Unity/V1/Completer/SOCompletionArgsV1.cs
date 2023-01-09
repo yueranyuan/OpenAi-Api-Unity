@@ -11,7 +11,7 @@ namespace OpenAi.Unity.V1
     public class SOCompletionArgsV1 : ScriptableObject
     {
         [Tooltip("The maximum number of tokens to generate. Requests can use up to 2048 tokens shared between prompt and completion. (One token is roughly 4 characters for normal English text)")]
-        public int max_tokens = 32;
+        public int max_tokens = 320;
 
         [Tooltip("What sampling temperature to use. Higher values means the model will take more risks. Try 0.9 for more creative applications, and 0 (argmax sampling) for ones with a well-defined answer. We generally recommend altering this or top_p but not both.")]
         public float temperature = 0.7f;
